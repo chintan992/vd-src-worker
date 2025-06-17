@@ -1,0 +1,12 @@
+name = "vd-src-worker"
+main = "src/index.ts"
+compatibility_date = "2025-06-17"
+
+# KV namespace bindings
+kv_namespaces = [
+  { binding = "API_LOGS", id = "a9c5c9f64a7d425680c80ae03b40ef09", preview_id = "a0d14151458449138cdc3254168935cd" }
+]
+
+# Define allowed domains
+[vars]
+ALLOWED_DOMAINS = "https://yourapp.com,https://www.yourapp.com,https://another-allowed-app.com,http://127.0.0.1:8787/,https://localhost:8787"

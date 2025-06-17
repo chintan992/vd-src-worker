@@ -10,9 +10,7 @@
 	"compatibility_flags": [
 		"global_fetch_strictly_public"
 	],
-	"assets": {
-		"directory": "./public"
-	},
+	// No static assets
 	"observability": {
 		"enabled": true
 	}
